@@ -108,7 +108,7 @@ print(T[set_data.index(data[i])],end='')
 ## CRYPTO
 ### Yusa的密码学课堂——一见如故 题
 1.魔改的Mt19937，关键在于逆rand函数，而实际上就是异或+循环移位
-![image]([https://github.com/furuanruan/CTF/crypto.png](https://raw.githubusercontent.com/furuanruan/CTF/main/crypto.png))
+![image](https://github.com/furuanruan/CTF/crypto.png](https://raw.githubusercontent.com/furuanruan/CTF/main/crypto.png)
 2.太菜了，不会写，怎么办，用z3.
 from gmpy2 import *
 from Crypto.Util.number  import *
